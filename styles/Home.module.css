@@ -21,6 +21,10 @@
   margin-left: 20%;
 }
 
+.underline{
+  text-decoration: underline;
+}
+
 .title {
   font-size: 2rem;
   margin: 2rem 0;

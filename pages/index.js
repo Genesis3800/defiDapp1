@@ -151,7 +151,7 @@ export default function Home() {
       if (joinedWhitelist) {
         return (
           <div className={styles.description}>
-            Thanks for joining the Whitelist!
+            Thanks for joining the Whitelist! <br /> <br /> (You can verify the transaction on the mumbai block explorer)
           </div>
         );
       } else if (loading) {
@@ -213,7 +213,7 @@ export default function Home() {
       </div>
 
       <footer className={styles.footer}>
-        Made with &#10084; by Priyank Gupta
+        Made with &#10084; by Priyank Gupta &nbsp; &nbsp; &nbsp; <a className={styles.underline} href="https://github.com/Genesis3800/defiDapp1.git">  (Github Repo Link)</a>
       </footer>
     </div>
   );
