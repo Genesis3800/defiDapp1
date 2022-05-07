@@ -9,3 +9,7 @@ I will be expanding the project to build a small De-fi Dapp.
 Stay tuned.
 
 The Dapp will be deployed through Vercel.
+
+
+As of now, the app allows you to connect your metamask wallet, and allows you to add your metamask address to a 'whitelisted addresses' list.
+You can check the transaction at Mumbai testnet explorer after passing the transaction. As of now, the contract will allow only 10 addresses into the list.
